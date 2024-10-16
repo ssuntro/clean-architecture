@@ -28,4 +28,4 @@ In summary, I understand that the flow of control can move inward or outward as 
 |   <img src="https://github.com/user-attachments/assets/7f140896-38a3-4ef2-b5f2-b663c80900ea" alt="problem" width="300" >  |   <img src="https://github.com/user-attachments/assets/fc6d2f97-af2c-456f-b98d-33c43a84e09f" alt="solution" width="300" > |
 
    
-With DIP concept, it helps reduce cyclic references, which are often the root cause of memory leaks in many languages, such as Swift. It also prevents odd code patterns like A calling B, and B calling A, continuing in a loop. For example the situation where A is usecase and B is repository.
+With Dependency Inversion Principle(DIP), it helps reduce cyclic references, which are often the root cause of memory leaks in many languages, such as Swift. It also prevents odd code patterns like A calling B, and B calling A, continuing in a loop. For example the situation where A is usecase and B is repository.
